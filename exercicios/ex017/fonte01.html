@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*shorthand font
+            -font-style -> font-weight -> font-size -> font-family 
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ipsam minus sunt animi debitis alias nostrum at explicabo dolores numquam tempore temporibus sit maiores quae ducimus ad quidem, reiciendis accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatum error repellendus modi pariatur nostrum in inventore, est ab accusantium reprehenderit obcaecati, alias iure dolorem eveniet ullam eligendi nemo ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, corrupti explicabo voluptatem consequuntur enim unde, consectetur reprehenderit culpa asperiores cupiditate reiciendis quae, delectus officiis saepe similique? Nostrum pariatur modi expedita.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum magni voluptatum magnam quas reiciendis iure, nesciunt quos commodi sint mollitia sequi ex ipsam delectus incidunt iusto ad suscipit excepturi tenetur?</p>
+</body>
+</html>
